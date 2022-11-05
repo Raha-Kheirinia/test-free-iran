@@ -6,6 +6,8 @@ $formEmail = 'sender@example.com';
  
 $postData = $statusMsg = $valErr = ''; 
 $status = 'error'; 
+
+
  
 // If the form is submitted 
 if(isset($_POST['submit'])){ 
@@ -16,6 +18,8 @@ if(isset($_POST['submit'])){
     $subject = trim($_POST['subject']); 
     $message = trim($_POST['message']); 
     system.out.println($message);
+
+
      
     // Validate form fields 
     if(empty($name)){ 
